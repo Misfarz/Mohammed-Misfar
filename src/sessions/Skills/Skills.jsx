@@ -18,7 +18,7 @@ function Skills() {
     <section className="skills-section">
       <div className="skills-content">
         <div className="skills-left">
-          <h2>Skills</h2>
+          <h2 className='skills-text'>Skills</h2>
           <div className="skills-cards">
             <div className="skills-card">
               <h3>Programming Languages</h3>

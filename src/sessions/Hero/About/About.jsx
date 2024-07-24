@@ -19,8 +19,8 @@ function About() {
             <h3>misfaryusaf@gmail.com</h3>
           </div>
           <div className="right-container1">
-            <h2>hello there !</h2>
-            <p>
+            <h2 className="yes1">hello there !</h2>
+            <p className="yes-mobile">
               As a passionate and dedicated tech enthusiast, I bring a
               self-directed and motivated approach to frontend development. I
               thrive in dynamic and ever-evolving environments, constantly
@@ -30,7 +30,7 @@ function About() {
               My articulate and responsible nature ensures effective
               communication and collaboration within any team.
             </p>
-            <p>
+            <p className="no-mobile">
               With a strong foundation in frontend development, I bring a
               diverse skill set in software development, optimization, and
               innovation across various platforms. I excel at crafting efficient
@@ -39,7 +39,7 @@ function About() {
               user experiences.
             </p>
 
-            <p>
+            <p className="no-mobile">
               I am equally proficient in optimizing existing systems to ensure
               they operate at peak performance. By leveraging my knowledge and
               skills, I aim to deliver seamless and engaging digital

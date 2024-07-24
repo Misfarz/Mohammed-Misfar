@@ -18,6 +18,59 @@
     margin-right: 80px;
    
   }
+
+
+
+  /* Media Query for Phones */
+@media (max-width: 600px) {
+  .container1 {
+    flex-direction: column; /* Stack items vertically */
+    
+    gap: 1em;
+    
+    padding: 0 40px 0 40px; /* Adjust padding */
+  
+  }
+  .no-mobile{
+    display: none;
+  }
+
+  .centered-heading {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+  .left-container1{
+    display: none;
+  }
+
+  .right-container1 {
+    align-items: center; /* Center content horizontally */
+    text-align: justify;
+  
+  }
+  .yes1{
+
+    margin: 0;
+
+  }
+
+  .yes-mobile{
+      margin: 0;
+  }
+
+  .aboutme-icon {
+    margin: 0; /* Remove margin */
+  }
+
+  span a img {
+    width: 25px; /* Adjust icon size for mobile */
+  }
+
+  span a img:hover {
+    background-color: #a58e6e;
+    border-radius: 20%;
+  }
+}
   
   
   .centered-heading {

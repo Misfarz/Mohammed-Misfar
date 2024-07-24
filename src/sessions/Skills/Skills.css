@@ -126,3 +126,56 @@
 .intern:hover {
   text-decoration: underline;
 }
+
+
+/* Media Query for Phones */
+@media (max-width: 600px) {
+  .skills-content {
+    grid-template-columns: 1fr; /* Change layout to a single column */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .skills-right{
+    padding-bottom: 3em;
+  }
+  .skills-text{
+    padding-top: 3em;
+
+  }
+  .skills-left h2, .skills-right h2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    margin-bottom: 15px; /* Reduce bottom margin */
+  }
+
+  .skills-cards, .exp-container {
+    align-items: center; /* Center content */
+    gap: 5px; /* Reduce gap between elements */
+  }
+
+  .skills-card h3, .exp-details h3 {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .skills-card p, .exp-details p {
+    font-size: 12px; /* Adjust font size */
+  }
+
+  .company-logo {
+    width: 40px; /* Smaller logo size */
+    height: 40px;
+  }
+
+  .exp-container {
+    margin-left: 0; /* Remove left margin for better fit */
+    align-items: center; /* Center align items */
+  }
+
+  .exp-item {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text */
+    padding: 15px; /* Increase padding for touch targets */
+  }
+
+  .intern {
+    font-size: 12px; /* Smaller font size for links */
+  }
+}
