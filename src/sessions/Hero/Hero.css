@@ -1,63 +1,17 @@
-
-.hero-img{
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .hero-img {
     max-width: 250px;
     margin: 0 auto;
-}
-body{
-    height: 100%; /* Ensure full height for scrolling */
-    overflow-y: scroll;
-    margin: 0;
-    scroll-snap-type: y mandatory;
-}
-
-section{
-    scroll-snap-align: start;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: black;
-    gap: 20px;
-    height: 100vh;
-    background-image: url('../../assets/cover8.jpg');
-    background-position: center ;
-    background-size: cover;
-   
-
-
-span{
-    display: flex;
-    justify-content: center;
-    gap:25px
-
-}
-span a {
-  margin: 0;
-}
-
-
-a{
-   width: fit-content;
-   align-self: center;
-}
-
-
-
-}
-
-.description{
-    max-width: 24ch;
-    margin: 0 auto;
-
-    
-}
-
-.hero-img {
-    max-width: 250px;
-    margin: 0 auto;
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
   }
   
   body {
@@ -82,6 +36,7 @@ a{
     background-image: url('../../assets/cover8.jpg');
     background-position: center;
     background-size: cover;
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
   }
   
   .small-logos {
@@ -89,6 +44,7 @@ a{
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap; /* Allows wrapping if the screen size is too small */
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
   }
   
   span a {
@@ -103,6 +59,7 @@ a{
   .description {
     max-width: 24ch;
     margin: 0 auto;
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
   }
   
   /* Media Query for Phones */
