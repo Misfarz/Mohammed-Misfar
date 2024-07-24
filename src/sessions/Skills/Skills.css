@@ -137,6 +137,10 @@
     grid-template-columns: 1fr; /* Change layout to a single column */
     height: auto; /* Allow height to adjust based on content */
   }
+  .skills-card{
+    background-color: white;
+    box-shadow: none ;
+  }
   .skills-right{
     padding-bottom: 3em;
   }
@@ -152,6 +156,7 @@
   .skills-cards, .exp-container {
     align-items: center; /* Center content */
     gap: 5px; /* Reduce gap between elements */
+    
   }
 
   .skills-card h3, .exp-details h3 {
@@ -161,6 +166,7 @@
   .skills-card p, .exp-details p {
     font-size: 12px; /* Adjust font size */
   }
+ 
 
   .company-logo {
     width: 40px; /* Smaller logo size */
