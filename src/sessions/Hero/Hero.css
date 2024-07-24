@@ -84,7 +84,7 @@ a{
     background-size: cover;
   }
   
-  span {
+  .small-logos {
     display: flex;
     justify-content: center;
     gap: 25px;
