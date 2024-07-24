@@ -92,6 +92,10 @@ input:not([type='text']):active{
       /* Stack sections vertically */
 
     }
+    .contact-section{
+        max-width: 400px;
+        margin-left: 1em;
+    }
   
     .cleft-section {
       display: none; /* Hide the left section on phones */

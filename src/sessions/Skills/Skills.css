@@ -130,6 +130,9 @@
 
 /* Media Query for Phones */
 @media (max-width: 600px) {
+  .skills-section{
+    max-width: 600px;
+  }
   .skills-content {
     grid-template-columns: 1fr; /* Change layout to a single column */
     height: auto; /* Allow height to adjust based on content */

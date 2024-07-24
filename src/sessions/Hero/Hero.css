@@ -110,6 +110,7 @@ a{
     .container {
       padding: 20px;
       background-size: cover;
+      max-width: 600px;
     }
   
     .hero-img {

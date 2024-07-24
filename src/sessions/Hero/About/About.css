@@ -23,6 +23,9 @@
 
   /* Media Query for Phones */
 @media (max-width: 600px) {
+  .aboutContainer{
+    max-width: 600px;
+  }
   .container1 {
     flex-direction: column; /* Stack items vertically */
     
