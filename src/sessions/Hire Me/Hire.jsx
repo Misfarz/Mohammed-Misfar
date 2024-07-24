@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hire.css'
-import CV from '../../assets/MYCV.pdf'
+import CV from '../../assets/mvcv.pdf'
 
 function Hire() {
   return (

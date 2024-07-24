@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import downloadImage from '../../assets/download.png';  // Direct import
-import CV from '../../assets/MYCV.pdf';
+import CV from '../../assets/mvcv.pdf';
 
 const experience = [
   {
