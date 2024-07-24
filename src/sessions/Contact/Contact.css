@@ -94,7 +94,7 @@ input:not([type='text']):active{
     }
     .contact-section{
         max-width: 400px;
-        margin-left: 1em;
+        margin-left: -1em;
       
     }
   
