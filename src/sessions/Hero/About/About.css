@@ -19,6 +19,13 @@
    
   }
 
+  .yes-mobile{
+    text-align: justify;
+  }
+  .no-mobile{
+    text-align: justify;
+  }
+
 
 
   /* Media Query for Phones */
