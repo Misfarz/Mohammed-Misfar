@@ -1,0 +1,30 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "JS",
+      "imageSrc": "skills/jsicon.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    }
+   
+
+ 
+  ]
+  

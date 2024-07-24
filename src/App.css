@@ -1,0 +1,59 @@
+:root{
+    --background-color:#2565ab ;
+    --btn-color:#0987f2;
+    --secondary-color:whitesmoke;
+    --project-card-bg:black;
+    --text-color:#222;
+    --form-text-color:#555;
+    --footer-text-color:#888;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+
+}
+
+section{
+    scroll-snap-align: start;
+}
+
+
+h1,h2,h3,p{
+    font-family: 'Roboto Mono', monospace;
+    
+
+}
+
+li{
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+h1,h2{
+    text-transform: uppercase;
+
+}
+
+h2,h3{
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Rubik';
+    font-size: 32px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+

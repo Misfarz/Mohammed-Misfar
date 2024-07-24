@@ -1,0 +1,13 @@
+[
+
+    {
+        "role":"Internship",
+        "organisation" : "HostUpCloud Tecnologies",
+        "startDate" :"sept-2024",
+        "endDate" : "present",
+        "experiences" : [ "worked on company's website", "reduced load time"],
+        "imageSrc": "skills/download.png"
+        
+    }
+
+]
