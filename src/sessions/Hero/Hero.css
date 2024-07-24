@@ -55,4 +55,79 @@ a{
     
 }
 
-
+.hero-img {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  body {
+    height: 100%; /* Ensure full height for scrolling */
+    overflow-y: scroll;
+    margin: 0;
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    scroll-snap-align: start;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    gap: 20px;
+    height: 100vh;
+    background-image: url('../../assets/cover8.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  span {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap; /* Allows wrapping if the screen size is too small */
+  }
+  
+  span a {
+    margin: 0;
+  }
+  
+  a {
+    width: fit-content;
+    align-self: center;
+  }
+  
+  .description {
+    max-width: 24ch;
+    margin: 0 auto;
+  }
+  
+  /* Media Query for Phones */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+      background-size: cover;
+    }
+  
+    .hero-img {
+      max-width: 150px;
+    }
+  
+    .description {
+      max-width: 20ch;
+      font-size: 14px; /* Smaller font size for phones */
+    }
+  
+    span {
+      justify-content: space-between; /* Ensure icons are spread across */
+      gap: 10px; /* Reduced gap for smaller screens */
+    }
+  
+    a {
+      font-size: 14px; /* Smaller font size for links */
+    }
+  }
+  
