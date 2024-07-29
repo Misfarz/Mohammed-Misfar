@@ -1,15 +1,15 @@
 import React from 'react';
 import './Skills.css';
 import downloadImage from '../../assets/download.png';  // Direct import
-import CV from '../../assets/cvmy.pdf';
+import Intern from '../../assets/Hostupcloud Tecnologies private Internship.pdf';
 
 const experience = [
   {
     imageSrc: downloadImage,
     organisation: "HostUpCloud",
     role: "Internship",
-    startDate: "May 2024",
-    endDate: "June 2024",
+    startDate: "Feb 2024",
+    endDate: "May 2024",
   },
 ];
 
@@ -57,7 +57,7 @@ function Skills() {
                 <div className="exp-details">
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <a className="intern" href={CV} download>
+                  <a className="intern" href={Intern} download>
                     Certificate of Completion
                   </a>
                 </div>
